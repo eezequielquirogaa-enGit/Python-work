@@ -101,4 +101,34 @@ Métodos para cadenas:
 # len()
 - descubrir la longitud de una lista
 
-SEGUIR PAGINA 94
+# range()
+- for value in range(1, 5)
+- en bucle for, empieza a contar en el primer valor
+- se detiene cuando llega al segundo valor proporcionado
+- usando un solo argumento, la secuencia arranca en 0
+- en listas, sirve para crear una lista de numeros en ese rango: list(range(1,5)). Salida: [1,2,3,4,5]
+- range(2, 11, 2) el tercer argumento sirve como tamaño de pasos al generar números. Salida: [2,4,6,8,10]
+
+# list()
+- convertir a la salida una lista
+
+# min()
+- hallar el mínimo
+
+# max()
+- hallar el maximo
+
+# sum()
+- calcular la suma, de una lista por ejemplo.
+
+# listas[:]
+- copiar una lista. 
+- lista_nueva = listas[:]
+
+# La PEP (Python Enhancement Proposal, Propuesta de mejora en Python), recomienda:
+- Sangrado: 4 espacios por nivel de sangrado
+- Longitud de línea: estándar de 79 caracteres por línea
+- Lineas en blanco: para agregar partes de su programa visualmente
+- Para mas recomendaciones: https://python.org/dev/peps/pep-0008/
+
+PAGINA 127
