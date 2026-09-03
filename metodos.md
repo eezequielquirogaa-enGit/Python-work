@@ -131,4 +131,3 @@ Métodos para cadenas:
 - Lineas en blanco: para agregar partes de su programa visualmente
 - Para mas recomendaciones: https://python.org/dev/peps/pep-0008/
 
-PAGINA 127
