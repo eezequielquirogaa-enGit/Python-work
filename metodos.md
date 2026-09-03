@@ -129,5 +129,20 @@ Métodos para cadenas:
 - Sangrado: 4 espacios por nivel de sangrado
 - Longitud de línea: estándar de 79 caracteres por línea
 - Lineas en blanco: para agregar partes de su programa visualmente
+- un espacio vacío entre operadores de comparación: if age > 4:
 - Para mas recomendaciones: https://python.org/dev/peps/pep-0008/
 
+# AND
+- Palabra clave para combinar las dos pruebas condicionales
+- si pasan las dos pruebas, la expresión se evaluará como 'True'
+- si no supera una de las dos, o las dos, la expresión se evalua como 'False'
+
+# OR
+- Palabra clave para combinar las dos pruebas condicionales
+- si pasa una o ambas pruebas, la expresión se evaluará como 'True'
+- si no supera las dos pruebas, la expresión falla y se evalua como 'False'
+
+# NOT
+- palabra clave para comprobar si un valor no está, en una lista, por ejemplo: 'if user not in users'
+
+PAGINA 156 CAPITULO 6 DICCIONARIOS
