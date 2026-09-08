@@ -60,6 +60,8 @@ Métodos para cadenas:
 - del listas[0]
 - eliminar un elemento de la lista conociendo la posición
 - ya no se puede acceder al valor que se ha eliminado
+- del diccionario['clave']
+- eliminar un par de clave-valor del diccionario
 
 # .pop()
 - elimina el último elemento de la lista
@@ -145,4 +147,9 @@ Métodos para cadenas:
 # NOT
 - palabra clave para comprobar si un valor no está, en una lista, por ejemplo: 'if user not in users'
 
-PAGINA 156 CAPITULO 6 DICCIONARIOS
+# get()
+- ERROR: Si cabe la posibilidad de que no exista la clave que busca, considere usar el método get()
+- método para acceder a valores en un diccionario
+- requiere una clave como primer argumento
+- Opcional, como segundo argumento, podemos pasar valor que se devolverá si la clave no existe
+- si dejamos fuera el segundo argumento en la llamada, y la clave no exite, python devolverá el valor None ("No existe ningún valor")
