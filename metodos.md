@@ -153,3 +153,20 @@ Métodos para cadenas:
 - requiere una clave como primer argumento
 - Opcional, como segundo argumento, podemos pasar valor que se devolverá si la clave no existe
 - si dejamos fuera el segundo argumento en la llamada, y la clave no exite, python devolverá el valor None ("No existe ningún valor")
+
+# .items()
+- nombre del diccionario seguido del metodo items(), para escribir un bucle for 
+- for key, value in diccionario.items():
+- devuelve una secuencia de pares clave-valor
+
+# .keys()
+- pasar en bucle por las claves
+- devuelve una secuencia de todas las claves
+
+# .set()
+- resultado: una lista sin elementos repetidos
+- identifica elementos únicos de la colección y crea un conjunto con ellos
+- conjuntos: variable = {'elemento1','elemento2', ... , 'elementoN'}
+- Por ejemplo, conjunto usando llaves y separando los elementos con coma
+- conjuntos y diccionarios ambos usan llaves, pero los conjuntos no pares de clave-valor.
+- Los conjuntos no mantienen los elementos en un orden específico
