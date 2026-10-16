@@ -170,3 +170,25 @@ Métodos para cadenas:
 - Por ejemplo, conjunto usando llaves y separando los elementos con coma
 - conjuntos y diccionarios ambos usan llaves, pero los conjuntos no pares de clave-valor.
 - Los conjuntos no mantienen los elementos en un orden específico
+
+# input()
+- La funcion input() pausa el programa y espera a que el usuario introduzca un texto
+
+# int()
+- transforma a un valor numérico de tipo entero
+
+# %
+- operador módulo
+- dividir un numero entre otro, devuelve el resto
+
+# break
+- sentencia break para interrumpir un bucle por completo sin ejecutar el resto del código
+
+# continue
+- en lugar de interrumpir un bucle por completo, usamos la sentencia continue
+- para volver al principio del bucle sin ejecutar el resto del código
+
+# Control-C
+- Para cancelar un bucle infinito
+
+
