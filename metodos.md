@@ -191,4 +191,11 @@ Métodos para cadenas:
 # Control-C
 - Para cancelar un bucle infinito
 
+# def
+- La primera linea usa la palabra  clave 'def' 
+- para informar a Python de que estamos definiendo una función
+
+# return
+- Poder procesar datos en la función y devolver un valor o conjunto de valores
+- La sentencia 'return' recoge un valor dentro de una función y lo envia de vuelta a la linea que ha llamado a la función
 
