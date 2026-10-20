@@ -64,4 +64,94 @@
 #     print(f"\nHello, {formatted_name}!")
     
 # --------------------- Pasar una lista
-#pagina 232
+# def greet_users(names):
+#     """Imprime un saludo sencillo para cada usuario de la lista."""
+#     for name in names:
+#         print(f"Hello, {name.title()}!")
+
+# usernames = ['hannah', 'ty', 'margot']
+# greet_users(usernames)
+
+# --------------------- Modificar una lista en una función
+
+# - SIN FUNCION -
+# Empieza con unos diseños que hay que imprimir.
+# unprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
+# completed_models = []
+
+# # Simula la impresión de cada diseño hasta que no queda ninguno.
+# # Mueve cada diseño a completed_models después de la impresión.
+# while unprinted_designs:
+#     current_design = unprinted_designs.pop()
+#     print(f"Printing model: {current_design}")
+#     completed_models.append(current_design)
+
+# # Muestra todos los modelos completados.
+# print("\nThe following models have been printed:")
+# for completed_model in completed_models:
+#     print(completed_model)
+
+# - CON FUNCION -
+# def print_models(unprinted_designs, completed_models):
+#     """Simula imprimir cada diseño, hasta que no queda ninguno.
+#     Mueve cada diseño a completed_models después de la impresión."""
+#     while unprinted_designs:
+#         current_design = unprinted_designs.pop()
+#         print(f"Printing model: {current_design}")
+#         completed_models.append(current_design)
+
+# def show_completed_models(completed_models):
+#     """Muestra todos los modelos que se han imprimido."""
+#     print("\nThe following models have been printed:")
+#     for completed_model in completed_models:
+#         print(completed_model)
+
+# unprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
+# completed_models = []
+
+# print_models(unprinted_designs, completed_models)
+# show_completed_models(completed_models)
+
+# --------------------- Pasar un número arbitrario de argumentos 
+# TUPLAS VACIAS
+# def make_pizza(*toppings):
+#     """Imprime la lista de ingredientes solicitados."""
+#     print(toppings)
+
+# make_pizza('pepperoni')
+# make_pizza('mushrooms', 'green peppers', 'extra cheese')
+
+# def make_pizza(*toppings):
+#     """Resume la pizza que estamos a punto de hacer."""
+#     print("\nMaking a pizza with the following toppings:")
+#     for topping in toppings:
+#         print(f"- {topping}")
+
+# make_pizza('pepperoni')
+# make_pizza('mushrooms', 'green peppers', 'extra cheese')
+
+# --------------------- Mezclar argumentos posicionales y arbitrarios
+# def make_pizza(size, *toppings):
+#     """Resume la pizza que estamos a punto de hacer."""
+#     print(f"\nMaking a {size}-inch pizza with the following toppings:")
+#     for topping in toppings:
+#         print(f"- {topping}")
+
+# make_pizza(16, 'pepperoni')
+# make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
+
+# --------------------- Usar argumentos de palabra clave arbitrarios 
+# DICCIONARIOS VACIOS
+
+def build_profile(first, last, **user_info):
+    """Crea un diccionario con todo lo que sabemos sobre un usuario.""" 
+    user_info['first_name'] = first
+    user_info['last_name'] = last
+    return user_info
+
+user_profile = build_profile('albert', 'einstein',
+    location='princeton',
+    field='physics')
+print(user_profile)
+
+# --------------------- 

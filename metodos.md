@@ -199,3 +199,33 @@ Métodos para cadenas:
 - Poder procesar datos en la función y devolver un valor o conjunto de valores
 - La sentencia 'return' recoge un valor dentro de una función y lo envia de vuelta a la linea que ha llamado a la función
 
+# def nombre_función(*parametro):
+- Asterisco en el nombre del parámetro le indica a python que cree una tupla vacía
+- con número arbitrario de argumentos
+- tambien acepta argumentos posicionales y de palabra clave y luego recoge los restantes en el parámetro final; 
+- ejemplo *def nombre_función(size, *parametro):*
+
+# def nombre_función(**parametro):
+- Doble asterisco en el nombre del parámetro le indica a python que cree un diccionario vacío
+
+# import *nombre_modulo* 
+- importar un módulo completo
+- La sentencia le dice python que ponga el código de un módulo a disposición del archivo de programa en ejecución
+- guardar las funciones en un archivo aparte nos permite ocultar los detalles del código del programa para concentrados en su lógica de nivel superior
+- nos permite reutilizar las funciones en distintos programas
+- todas las funciones del módulo estarán disponibles a través de: 
+*nombre_modulo.nombre_funcion()*
+
+# from *nombre_modulo* import *nombre_funcion*
+- Importar una función específica o tantas como quiera.
+
+# from *nombre_modulo* import *nombre_funcion* as *nombre_alias*
+- Dar a la funcion un alias especial al importarla
+- para que no haya conflicto con un nombre que ya exista en el programa
+
+# import *pizza* as *p*
+- dar un alias corto a un módulo
+
+# from *nombre_modulo* import *
+- importar todas las funciones de un módulo con el operador asterisco (*)
+
